@@ -1,0 +1,52 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyc
+
+# Virtual environment
+venv/
+env/
+.env/
+.env
+
+# IDE-specific files
+.vscode/
+*.vscode/
+.vs/
+*.sublime-workspace
+
+# Logs and output files
+*.log
+*.bak
+*.swp
+*.tmp
+
+# Dependency directories
+lib/
+libs/
+dist/
+build/
+egg-info/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+.idea/
+*.bak
+*.orig
+*.rej
+*.patch
+*.sln.cache
+*.suo
+*.user
+*.tmp
+*.userprefs
+*.sublime-project
+
+# Data Files
+*.csv
+*.txt
