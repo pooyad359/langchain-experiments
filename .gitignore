@@ -50,3 +50,4 @@ Thumbs.db
 # Data Files
 *.csv
 *.txt
+!requirements.txt
