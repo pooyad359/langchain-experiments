@@ -1,6 +1,8 @@
-from paper_summary import ArxivPaper, Summarizer
-from rich.console import Console
 from pathlib import Path
+
+from rich.console import Console
+
+from paper_summary import ArxivPaper, Summarizer
 
 console = Console()
 ID = "2306.07967"
@@ -38,4 +40,3 @@ def test_stuff():
 
 if __name__ == "__main__":
     main()
-    # test_stuff()
