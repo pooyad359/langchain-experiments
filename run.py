@@ -19,13 +19,13 @@ def main():
     paper = get_paper(ID)
     paper.save_manuscript()
     console.print(f"Number of characters: {len(paper.main_body())}")
-    summerizer = Summarizer(text=paper.main_body())
-    summerizer.check_length()
-    console.print(f"Number of tokens: {summerizer.tokens_count}")
+    summarizer = Summarizer(text=paper.main_body())
+    summarizer.check_length()
+    console.print(f"Number of tokens: {summarizer.tokens_count}")
     console.print(paper.get_header(), style="bold green")
-    console.print(summerizer.get_key_points(), style="bold cyan")
+    console.print(summarizer.get_key_points(), style="bold cyan")
     console.print("\nSUMMARY", style="bold reverse blue")
-    console.print(summerizer.get_summary(), style="bold blue")
+    console.print(summarizer.get_summary(), style="bold blue")
 
 
 def test_stuff():
